@@ -15,7 +15,7 @@ class MyWebViewController: UIViewController,UIWebViewDelegate {
     //@IBOutlet weak var theGoBtn: UIButton!
     
     //variables
-    let the_clientId: String = "1652363d257f4909a3f1f153b68e9c33"
+    let the_clientId: String = "1652363d257f4909a3f1f153b68e9c33" // the client id of my app provided by Instagram API
     let the_redirect_uri: String = "http://ubi-lab.naist.jp/" // my laboratory website url
     var theRealToken = ""
     
