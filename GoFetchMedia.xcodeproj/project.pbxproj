@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7347DC90F4E5A54BC4EE1AB5 /* Pods_GoFetchMediaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FE47087B0413FA2AF35F4C /* Pods_GoFetchMediaUITests.framework */; };
+		8068CEA21E6C414400AEC521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068CEA11E6C414400AEC521 /* AppDelegate.swift */; };
+		8068CEA41E6C414400AEC521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068CEA31E6C414400AEC521 /* ViewController.swift */; };
+		8068CEA71E6C414400AEC521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8068CEA51E6C414400AEC521 /* Main.storyboard */; };
+		8068CEAA1E6C414400AEC521 /* GoFetchMedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8068CEA81E6C414400AEC521 /* GoFetchMedia.xcdatamodeld */; };
+		8068CEAC1E6C414400AEC521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8068CEAB1E6C414400AEC521 /* Assets.xcassets */; };
+		8068CEAF1E6C414500AEC521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8068CEAD1E6C414500AEC521 /* LaunchScreen.storyboard */; };
+		8068CEBA1E6C414500AEC521 /* GoFetchMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068CEB91E6C414500AEC521 /* GoFetchMediaTests.swift */; };
+		8068CEC51E6C414500AEC521 /* GoFetchMediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068CEC41E6C414500AEC521 /* GoFetchMediaUITests.swift */; };
+		8068CED31E6C4A0D00AEC521 /* MyWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068CED21E6C4A0D00AEC521 /* MyWebViewController.swift */; };
+		8068CED51E6C734800AEC521 /* FetchMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068CED41E6C734800AEC521 /* FetchMediaViewController.swift */; };
+		8068CED71E6C85DA00AEC521 /* CustomCellMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8068CED61E6C85DA00AEC521 /* CustomCellMedia.swift */; };
+		808E81671E6D087800888467 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E81661E6D087800888467 /* CommentsViewController.swift */; };
+		80E906E71E6D0EB200B6EC5A /* CustomCellComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E906E61E6D0EB200B6EC5A /* CustomCellComments.swift */; };
+		C55D8F2C70FE306344E8E2AB /* Pods_GoFetchMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0FCF636BE53C1295909623 /* Pods_GoFetchMedia.framework */; };
+		DBF6695F567E3D06D6A11660 /* Pods_GoFetchMediaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D61BF34638F79615AF97BB /* Pods_GoFetchMediaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8068CEB61E6C414500AEC521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8068CE961E6C414400AEC521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8068CE9D1E6C414400AEC521;
+			remoteInfo = GoFetchMedia;
+		};
+		8068CEC11E6C414500AEC521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8068CE961E6C414400AEC521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8068CE9D1E6C414400AEC521;
+			remoteInfo = GoFetchMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D61BF34638F79615AF97BB /* Pods_GoFetchMediaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoFetchMediaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		034A8E8A379C5BC00689A761 /* Pods-GoFetchMediaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFetchMediaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoFetchMediaUITests/Pods-GoFetchMediaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		249B40D04BE67CAAE39B691C /* Pods-GoFetchMediaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFetchMediaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoFetchMediaUITests/Pods-GoFetchMediaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0FCF636BE53C1295909623 /* Pods_GoFetchMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoFetchMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCEE6C6A7CF63561D09EC4C /* Pods-GoFetchMedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFetchMedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoFetchMedia/Pods-GoFetchMedia.debug.xcconfig"; sourceTree = "<group>"; };
+		55FE47087B0413FA2AF35F4C /* Pods_GoFetchMediaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoFetchMediaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A15017409B51E640DA682E /* Pods-GoFetchMediaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFetchMediaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoFetchMediaTests/Pods-GoFetchMediaTests.release.xcconfig"; sourceTree = "<group>"; };
+		8068CE9E1E6C414400AEC521 /* GoFetchMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoFetchMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8068CEA11E6C414400AEC521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8068CEA31E6C414400AEC521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8068CEA61E6C414400AEC521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8068CEA91E6C414400AEC521 /* GoFetchMedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoFetchMedia.xcdatamodel; sourceTree = "<group>"; };
+		8068CEAB1E6C414400AEC521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8068CEAE1E6C414500AEC521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8068CEB01E6C414500AEC521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8068CEB51E6C414500AEC521 /* GoFetchMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoFetchMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8068CEB91E6C414500AEC521 /* GoFetchMediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoFetchMediaTests.swift; sourceTree = "<group>"; };
+		8068CEBB1E6C414500AEC521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8068CEC01E6C414500AEC521 /* GoFetchMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoFetchMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8068CEC41E6C414500AEC521 /* GoFetchMediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoFetchMediaUITests.swift; sourceTree = "<group>"; };
+		8068CEC61E6C414500AEC521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8068CED21E6C4A0D00AEC521 /* MyWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWebViewController.swift; sourceTree = "<group>"; };
+		8068CED41E6C734800AEC521 /* FetchMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchMediaViewController.swift; sourceTree = "<group>"; };
+		8068CED61E6C85DA00AEC521 /* CustomCellMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellMedia.swift; sourceTree = "<group>"; };
+		808E81661E6D087800888467 /* CommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		80E906E61E6D0EB200B6EC5A /* CustomCellComments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellComments.swift; sourceTree = "<group>"; };
+		BE66862933C6B47DDB7E676B /* Pods-GoFetchMedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFetchMedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoFetchMedia/Pods-GoFetchMedia.release.xcconfig"; sourceTree = "<group>"; };
+		FC89877251785352F6146776 /* Pods-GoFetchMediaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFetchMediaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoFetchMediaTests/Pods-GoFetchMediaTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8068CE9B1E6C414400AEC521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55D8F2C70FE306344E8E2AB /* Pods_GoFetchMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068CEB21E6C414500AEC521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF6695F567E3D06D6A11660 /* Pods_GoFetchMediaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068CEBD1E6C414500AEC521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7347DC90F4E5A54BC4EE1AB5 /* Pods_GoFetchMediaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BD709888909C4886F4DD1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DCEE6C6A7CF63561D09EC4C /* Pods-GoFetchMedia.debug.xcconfig */,
+				BE66862933C6B47DDB7E676B /* Pods-GoFetchMedia.release.xcconfig */,
+				FC89877251785352F6146776 /* Pods-GoFetchMediaTests.debug.xcconfig */,
+				69A15017409B51E640DA682E /* Pods-GoFetchMediaTests.release.xcconfig */,
+				249B40D04BE67CAAE39B691C /* Pods-GoFetchMediaUITests.debug.xcconfig */,
+				034A8E8A379C5BC00689A761 /* Pods-GoFetchMediaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8068CE951E6C414400AEC521 = {
+			isa = PBXGroup;
+			children = (
+				8068CEA01E6C414400AEC521 /* GoFetchMedia */,
+				8068CEB81E6C414500AEC521 /* GoFetchMediaTests */,
+				8068CEC31E6C414500AEC521 /* GoFetchMediaUITests */,
+				8068CE9F1E6C414400AEC521 /* Products */,
+				09BD709888909C4886F4DD1B /* Pods */,
+				D9B126AA21880EA6744C55B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8068CE9F1E6C414400AEC521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8068CE9E1E6C414400AEC521 /* GoFetchMedia.app */,
+				8068CEB51E6C414500AEC521 /* GoFetchMediaTests.xctest */,
+				8068CEC01E6C414500AEC521 /* GoFetchMediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8068CEA01E6C414400AEC521 /* GoFetchMedia */ = {
+			isa = PBXGroup;
+			children = (
+				8068CEA11E6C414400AEC521 /* AppDelegate.swift */,
+				8068CEA31E6C414400AEC521 /* ViewController.swift */,
+				8068CEA51E6C414400AEC521 /* Main.storyboard */,
+				8068CEAB1E6C414400AEC521 /* Assets.xcassets */,
+				8068CEAD1E6C414500AEC521 /* LaunchScreen.storyboard */,
+				8068CEB01E6C414500AEC521 /* Info.plist */,
+				8068CEA81E6C414400AEC521 /* GoFetchMedia.xcdatamodeld */,
+				8068CED21E6C4A0D00AEC521 /* MyWebViewController.swift */,
+				8068CED41E6C734800AEC521 /* FetchMediaViewController.swift */,
+				8068CED61E6C85DA00AEC521 /* CustomCellMedia.swift */,
+				808E81661E6D087800888467 /* CommentsViewController.swift */,
+				80E906E61E6D0EB200B6EC5A /* CustomCellComments.swift */,
+			);
+			path = GoFetchMedia;
+			sourceTree = "<group>";
+		};
+		8068CEB81E6C414500AEC521 /* GoFetchMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8068CEB91E6C414500AEC521 /* GoFetchMediaTests.swift */,
+				8068CEBB1E6C414500AEC521 /* Info.plist */,
+			);
+			path = GoFetchMediaTests;
+			sourceTree = "<group>";
+		};
+		8068CEC31E6C414500AEC521 /* GoFetchMediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8068CEC41E6C414500AEC521 /* GoFetchMediaUITests.swift */,
+				8068CEC61E6C414500AEC521 /* Info.plist */,
+			);
+			path = GoFetchMediaUITests;
+			sourceTree = "<group>";
+		};
+		D9B126AA21880EA6744C55B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FCF636BE53C1295909623 /* Pods_GoFetchMedia.framework */,
+				02D61BF34638F79615AF97BB /* Pods_GoFetchMediaTests.framework */,
+				55FE47087B0413FA2AF35F4C /* Pods_GoFetchMediaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8068CE9D1E6C414400AEC521 /* GoFetchMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8068CEC91E6C414500AEC521 /* Build configuration list for PBXNativeTarget "GoFetchMedia" */;
+			buildPhases = (
+				361ADFE841024FA7821047D5 /* [CP] Check Pods Manifest.lock */,
+				8068CE9A1E6C414400AEC521 /* Sources */,
+				8068CE9B1E6C414400AEC521 /* Frameworks */,
+				8068CE9C1E6C414400AEC521 /* Resources */,
+				EDC54036866B570A55FE8B0D /* [CP] Embed Pods Frameworks */,
+				1D694DE061ED7B826A681DA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoFetchMedia;
+			productName = GoFetchMedia;
+			productReference = 8068CE9E1E6C414400AEC521 /* GoFetchMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8068CEB41E6C414500AEC521 /* GoFetchMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8068CECC1E6C414500AEC521 /* Build configuration list for PBXNativeTarget "GoFetchMediaTests" */;
+			buildPhases = (
+				C17568D0F6E4CC130E71AE7C /* [CP] Check Pods Manifest.lock */,
+				8068CEB11E6C414500AEC521 /* Sources */,
+				8068CEB21E6C414500AEC521 /* Frameworks */,
+				8068CEB31E6C414500AEC521 /* Resources */,
+				4C0B712BBC07B99F0C1BA76A /* [CP] Embed Pods Frameworks */,
+				77F6F9D06424FE787DCFCE56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8068CEB71E6C414500AEC521 /* PBXTargetDependency */,
+			);
+			name = GoFetchMediaTests;
+			productName = GoFetchMediaTests;
+			productReference = 8068CEB51E6C414500AEC521 /* GoFetchMediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8068CEBF1E6C414500AEC521 /* GoFetchMediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8068CECF1E6C414500AEC521 /* Build configuration list for PBXNativeTarget "GoFetchMediaUITests" */;
+			buildPhases = (
+				EC8AE9E9794B0C69AED411DC /* [CP] Check Pods Manifest.lock */,
+				8068CEBC1E6C414500AEC521 /* Sources */,
+				8068CEBD1E6C414500AEC521 /* Frameworks */,
+				8068CEBE1E6C414500AEC521 /* Resources */,
+				3B00C9383C4FDFB9D014A255 /* [CP] Embed Pods Frameworks */,
+				BF2F624C3471C4AB19EB1BFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8068CEC21E6C414500AEC521 /* PBXTargetDependency */,
+			);
+			name = GoFetchMediaUITests;
+			productName = GoFetchMediaUITests;
+			productReference = 8068CEC01E6C414500AEC521 /* GoFetchMediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8068CE961E6C414400AEC521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "The Elder Company";
+				TargetAttributes = {
+					8068CE9D1E6C414400AEC521 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 99WH395BKY;
+						ProvisioningStyle = Automatic;
+					};
+					8068CEB41E6C414500AEC521 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 99WH395BKY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8068CE9D1E6C414400AEC521;
+					};
+					8068CEBF1E6C414500AEC521 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 99WH395BKY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8068CE9D1E6C414400AEC521;
+					};
+				};
+			};
+			buildConfigurationList = 8068CE991E6C414400AEC521 /* Build configuration list for PBXProject "GoFetchMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8068CE951E6C414400AEC521;
+			productRefGroup = 8068CE9F1E6C414400AEC521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8068CE9D1E6C414400AEC521 /* GoFetchMedia */,
+				8068CEB41E6C414500AEC521 /* GoFetchMediaTests */,
+				8068CEBF1E6C414500AEC521 /* GoFetchMediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8068CE9C1E6C414400AEC521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8068CEAF1E6C414500AEC521 /* LaunchScreen.storyboard in Resources */,
+				8068CEAC1E6C414400AEC521 /* Assets.xcassets in Resources */,
+				8068CEA71E6C414400AEC521 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068CEB31E6C414500AEC521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068CEBE1E6C414500AEC521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D694DE061ED7B826A681DA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoFetchMedia/Pods-GoFetchMedia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		361ADFE841024FA7821047D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B00C9383C4FDFB9D014A255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoFetchMediaUITests/Pods-GoFetchMediaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C0B712BBC07B99F0C1BA76A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoFetchMediaTests/Pods-GoFetchMediaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77F6F9D06424FE787DCFCE56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoFetchMediaTests/Pods-GoFetchMediaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2F624C3471C4AB19EB1BFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoFetchMediaUITests/Pods-GoFetchMediaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C17568D0F6E4CC130E71AE7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8AE9E9794B0C69AED411DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC54036866B570A55FE8B0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoFetchMedia/Pods-GoFetchMedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8068CE9A1E6C414400AEC521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8068CED51E6C734800AEC521 /* FetchMediaViewController.swift in Sources */,
+				8068CEA41E6C414400AEC521 /* ViewController.swift in Sources */,
+				808E81671E6D087800888467 /* CommentsViewController.swift in Sources */,
+				8068CEA21E6C414400AEC521 /* AppDelegate.swift in Sources */,
+				80E906E71E6D0EB200B6EC5A /* CustomCellComments.swift in Sources */,
+				8068CED71E6C85DA00AEC521 /* CustomCellMedia.swift in Sources */,
+				8068CEAA1E6C414400AEC521 /* GoFetchMedia.xcdatamodeld in Sources */,
+				8068CED31E6C4A0D00AEC521 /* MyWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068CEB11E6C414500AEC521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8068CEBA1E6C414500AEC521 /* GoFetchMediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8068CEBC1E6C414500AEC521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8068CEC51E6C414500AEC521 /* GoFetchMediaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8068CEB71E6C414500AEC521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8068CE9D1E6C414400AEC521 /* GoFetchMedia */;
+			targetProxy = 8068CEB61E6C414500AEC521 /* PBXContainerItemProxy */;
+		};
+		8068CEC21E6C414500AEC521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8068CE9D1E6C414400AEC521 /* GoFetchMedia */;
+			targetProxy = 8068CEC11E6C414500AEC521 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8068CEA51E6C414400AEC521 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8068CEA61E6C414400AEC521 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8068CEAD1E6C414500AEC521 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8068CEAE1E6C414500AEC521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8068CEC71E6C414500AEC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8068CEC81E6C414500AEC521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8068CECA1E6C414500AEC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCEE6C6A7CF63561D09EC4C /* Pods-GoFetchMedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = GoFetchMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elder.GoFetchMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8068CECB1E6C414500AEC521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE66862933C6B47DDB7E676B /* Pods-GoFetchMedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = GoFetchMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elder.GoFetchMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8068CECD1E6C414500AEC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC89877251785352F6146776 /* Pods-GoFetchMediaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = GoFetchMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elder.GoFetchMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoFetchMedia.app/GoFetchMedia";
+			};
+			name = Debug;
+		};
+		8068CECE1E6C414500AEC521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A15017409B51E640DA682E /* Pods-GoFetchMediaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = GoFetchMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elder.GoFetchMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoFetchMedia.app/GoFetchMedia";
+			};
+			name = Release;
+		};
+		8068CED01E6C414500AEC521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249B40D04BE67CAAE39B691C /* Pods-GoFetchMediaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = GoFetchMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elder.GoFetchMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoFetchMedia;
+			};
+			name = Debug;
+		};
+		8068CED11E6C414500AEC521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 034A8E8A379C5BC00689A761 /* Pods-GoFetchMediaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = GoFetchMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elder.GoFetchMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoFetchMedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8068CE991E6C414400AEC521 /* Build configuration list for PBXProject "GoFetchMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8068CEC71E6C414500AEC521 /* Debug */,
+				8068CEC81E6C414500AEC521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8068CEC91E6C414500AEC521 /* Build configuration list for PBXNativeTarget "GoFetchMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8068CECA1E6C414500AEC521 /* Debug */,
+				8068CECB1E6C414500AEC521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8068CECC1E6C414500AEC521 /* Build configuration list for PBXNativeTarget "GoFetchMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8068CECD1E6C414500AEC521 /* Debug */,
+				8068CECE1E6C414500AEC521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8068CECF1E6C414500AEC521 /* Build configuration list for PBXNativeTarget "GoFetchMediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8068CED01E6C414500AEC521 /* Debug */,
+				8068CED11E6C414500AEC521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8068CEA81E6C414400AEC521 /* GoFetchMedia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8068CEA91E6C414400AEC521 /* GoFetchMedia.xcdatamodel */,
+			);
+			currentVersion = 8068CEA91E6C414400AEC521 /* GoFetchMedia.xcdatamodel */;
+			path = GoFetchMedia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8068CE961E6C414400AEC521 /* Project object */;
+}
